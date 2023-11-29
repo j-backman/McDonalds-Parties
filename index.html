@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McDonald's Coming Soon</title>
     <style>
+        @import url(https://db.onlinewebfonts.com/c/827d075b1538829cc0db75696e4d5fa2?family=Speedee+Bold);
+
         body {
+            font-family: 'Speedee Bold', sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -16,19 +19,27 @@
             width: 100%;
             height: auto;
             margin-top: 300px;
+            margin-bottom: 20px;
         }
 
         #supporting-text {
             margin-top: 20px;
-            font-size: 1.2em;
-            color: #333;
+            font-size: 1.4em;
+            color: #000000
+            font-family: 'Speedee Bold', sans-serif;
+        }
+        #supporting-text-yellow {
+            margin-top: 20px;
+            font-size: 1.0em;
+            color: #ffbc0d; /* Changed text color to #ffbc0d */
+            font-family: 'Speedee Bold', sans-serif;
         }
     </style>
 </head>
 <body>
     <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png" alt="McDonald's Logo">
     <div id="supporting-text">
-        Something is coming soon, and you'll be McLovin' it...
+        <span>Something is coming soon, and <span id="supporting-text-yellow">you'll be McLovin' it...</span></span>
     </div>
 </body>
 </html>
